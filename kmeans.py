@@ -68,5 +68,7 @@ image_compressed = update_image(image, final_centroids)
 # Display the compressed image
 plt.imshow(image_compressed.astype(np.uint8))  # Ensure the image is in the correct format
 plt.axis('off')  # Hide axis
-plt.savefig(fname='sea_turtle_compressed.png', format='png', dpi=300)
+plt.savefig(fname='sea_turtle_compressed.png', format='png', dpi=300) # Change the name of the file name for it to work.
 plt.show()  # Show the image
+
+# This code was made with the inspiration from a past project Kmeansimage in C, you can check it out on my pinned repositories.
